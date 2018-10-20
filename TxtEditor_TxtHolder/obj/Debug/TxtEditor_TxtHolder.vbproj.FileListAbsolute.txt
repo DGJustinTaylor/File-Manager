@@ -1,0 +1,11 @@
+c:\users\boyfr\documents\visual studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.exe.config
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.exe
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.pdb
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.xml
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbprojResolveAssemblyReference.cache
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.Resources.resources
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbproj.GenerateResource.Cache
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.exe
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.xml
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.pdb
+C:\Users\boyfr\Documents\Visual Studio 2015\Projects\TxtEditor_TxtHolder\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.frmFileOrg.resources
