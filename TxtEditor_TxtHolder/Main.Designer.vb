@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmFileOrg
+Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,6 +22,7 @@ Partial Class frmFileOrg
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.cmbFileList = New System.Windows.Forms.ComboBox()
         Me.txtDirectory = New System.Windows.Forms.TextBox()
         Me.txtFileType = New System.Windows.Forms.TextBox()
@@ -128,7 +129,7 @@ Partial Class frmFileOrg
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
-        'frmFileOrg
+        'frmMain
         '
         Me.AcceptButton = Me.btnFillList
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -144,7 +145,8 @@ Partial Class frmFileOrg
         Me.Controls.Add(Me.txtFileType)
         Me.Controls.Add(Me.txtDirectory)
         Me.Controls.Add(Me.cmbFileList)
-        Me.Name = "frmFileOrg"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Text File Organizer"
         Me.StatusStrip1.ResumeLayout(False)

@@ -7,7 +7,7 @@
 Option Strict On
 Option Explicit On
 
-Public Class frmFileOrg
+Public Class frmMain
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Simply give my information and set defaults
         Dim defaultPath As String = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) & "\desktop"

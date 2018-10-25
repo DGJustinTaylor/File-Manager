@@ -17,7 +17,6 @@ C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\bin\Debug\
 C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.pdb
 C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.xml
 C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbprojResolveAssemblyReference.cache
-C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.frmFileOrg.resources
 C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.Resources.resources
 C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbproj.GenerateResource.Cache
 E:\Text-File-Manager\TxtEditor_TxtHolder\bin\Debug\TxtEditor_TxtHolder.exe.config
@@ -42,3 +41,5 @@ G:\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbprojRes
 G:\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.frmFileOrg.resources
 G:\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.Resources.resources
 G:\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.vbproj.GenerateResource.Cache
+C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.frmMain.resources
+C:\Users\boyfr\Documents\GitHub\Text-File-Manager\TxtEditor_TxtHolder\obj\Debug\TxtEditor_TxtHolder.frmSplash.resources
