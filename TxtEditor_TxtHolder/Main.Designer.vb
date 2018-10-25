@@ -31,11 +31,15 @@ Partial Class frmFileOrg
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.slblProgInfo = New System.Windows.Forms.ToolStripStatusLabel()
         Me.btnRead = New System.Windows.Forms.Button()
+        Me.btnEdit = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'cmbFileList
         '
+        Me.cmbFileList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbFileList.FormattingEnabled = True
         Me.cmbFileList.Location = New System.Drawing.Point(12, 64)
         Me.cmbFileList.Name = "cmbFileList"
@@ -78,7 +82,7 @@ Partial Class frmFileOrg
         '
         Me.btnFillList.Location = New System.Drawing.Point(12, 91)
         Me.btnFillList.Name = "btnFillList"
-        Me.btnFillList.Size = New System.Drawing.Size(125, 30)
+        Me.btnFillList.Size = New System.Drawing.Size(120, 35)
         Me.btnFillList.TabIndex = 5
         Me.btnFillList.Text = "Fill List"
         Me.btnFillList.UseVisualStyleBackColor = True
@@ -86,7 +90,7 @@ Partial Class frmFileOrg
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.slblProgInfo})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 137)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 219)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(284, 22)
         Me.StatusStrip1.TabIndex = 6
@@ -100,19 +104,49 @@ Partial Class frmFileOrg
         '
         'btnRead
         '
-        Me.btnRead.Location = New System.Drawing.Point(147, 91)
+        Me.btnRead.Location = New System.Drawing.Point(152, 91)
         Me.btnRead.Name = "btnRead"
-        Me.btnRead.Size = New System.Drawing.Size(125, 30)
+        Me.btnRead.Size = New System.Drawing.Size(120, 35)
         Me.btnRead.TabIndex = 7
         Me.btnRead.Text = "Read File"
         Me.btnRead.UseVisualStyleBackColor = True
+        '
+        'btnEdit
+        '
+        Me.btnEdit.Location = New System.Drawing.Point(12, 132)
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(120, 35)
+        Me.btnEdit.TabIndex = 8
+        Me.btnEdit.Text = "Editor"
+        Me.btnEdit.UseVisualStyleBackColor = True
+        '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(12, 173)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(260, 35)
+        Me.btnExit.TabIndex = 9
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Location = New System.Drawing.Point(152, 132)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(120, 35)
+        Me.btnDelete.TabIndex = 10
+        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.UseVisualStyleBackColor = True
         '
         'frmFileOrg
         '
         Me.AcceptButton = Me.btnFillList
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 159)
+        Me.ClientSize = New System.Drawing.Size(284, 241)
+        Me.Controls.Add(Me.btnDelete)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnEdit)
         Me.Controls.Add(Me.btnRead)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.btnFillList)
@@ -122,6 +156,7 @@ Partial Class frmFileOrg
         Me.Controls.Add(Me.txtDirectory)
         Me.Controls.Add(Me.cmbFileList)
         Me.Name = "frmFileOrg"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Text File Organizer"
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
@@ -139,4 +174,7 @@ Partial Class frmFileOrg
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents slblProgInfo As ToolStripStatusLabel
     Friend WithEvents btnRead As Button
+    Friend WithEvents btnEdit As Button
+    Friend WithEvents btnExit As Button
+    Friend WithEvents btnDelete As Button
 End Class
